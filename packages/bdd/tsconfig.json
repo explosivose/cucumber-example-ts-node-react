@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node16",
+  "compilerOptions": {
+    "lib": ["es2020", "dom", "dom.iterable"],
+    "jsx": "react-jsx"
+  },
+  "ts-node": {
+    "transpileOnly": true
+  }
+}
